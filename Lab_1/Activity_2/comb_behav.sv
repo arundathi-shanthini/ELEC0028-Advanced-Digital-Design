@@ -5,6 +5,8 @@ Author: Arundathi Shaji Shanthini
 
 module comb_behav(input logic A,B,C,D, output logic F);
 
+	wire w1,w2,w3;
+	
 	assign w1 = A & B;
 	assign w2 = (~B) & C;
 	assign w3 = w1|w2;
