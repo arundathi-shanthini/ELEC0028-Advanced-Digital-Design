@@ -17,7 +17,7 @@ endmodule
 
 // An example or reference:
 
-// Code that depicts defining a module object
+// Code that depicts instantiating a module
 /* 
 module ADD_Workshop1_activity1();
 	logic A,B,C,D,F; 
