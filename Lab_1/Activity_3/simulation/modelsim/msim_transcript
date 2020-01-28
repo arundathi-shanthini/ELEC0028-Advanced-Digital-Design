@@ -1,0 +1,93 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do reg_behav_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/arund/OneDrive\ -\ University\ College\ London/UCL/Year\ 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3 {C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:09 on Jan 28,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3" C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv 
+# -- Compiling module reg_behav
+# -- Compiling module reg_behav_tb
+# 
+# Top level modules:
+# 	reg_behav
+# 	reg_behav_tb
+# End time: 10:16:10 on Jan 28,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/arund/OneDrive\ -\ University\ College\ London/UCL/Year\ 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3 {C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:10 on Jan 28,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3" C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv 
+# -- Compiling module reg_behav
+# -- Compiling module reg_behav_tb
+# 
+# Top level modules:
+# 	reg_behav
+# 	reg_behav_tb
+# End time: 10:16:10 on Jan 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TESTTB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TESTTB 
+# Start time: 10:16:11 on Jan 28,2020
+# ** Error: (vsim-3170) Could not find 'TESTTB'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/simulation/modelsim/rtl_work
+#             C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./reg_behav_run_msim_rtl_verilog.do PAUSED at line 12
+vsim work.reg_behav_tb
+# vsim work.reg_behav_tb 
+# Start time: 10:16:11 on Jan 28,2020
+# Loading sv_std.std
+# Loading work.reg_behav_tb
+add wave -position insertpoint  \
+sim:/reg_behav_tb/clk
+run
+vlog -sv -work work {+incdir+C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3} {C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:19:54 on Jan 28,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3" C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv 
+# -- Compiling module reg_behav
+# -- Compiling module reg_behav_tb
+# 
+# Top level modules:
+# 	reg_behav_tb
+# End time: 10:19:54 on Jan 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.reg_behav_tb
+# Loading work.reg_behav
+# ** Warning: (vsim-3017) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Too few port connections. Expected 4, found 1.
+#    Time: 0 ps  Iteration: 0  Instance: /reg_behav_tb/dut File: C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv
+# ** Warning: (vsim-3722) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Missing connection for port 'data'.
+# ** Warning: (vsim-3722) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-3722) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Missing connection for port 'data_out'.
+run
+add log -r sim:/reg_behav_tb/dut/*
+restart -f; run 100;
+# ** Warning: (vsim-3017) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Too few port connections. Expected 4, found 1.
+#    Time: 0 ps  Iteration: 0  Instance: /reg_behav_tb/dut File: C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv
+# ** Warning: (vsim-3722) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Missing connection for port 'data'.
+# ** Warning: (vsim-3722) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-3722) C:/Users/arund/OneDrive - University College London/UCL/Year 3/ELEC0028/ELEC0028-Advanced-Digital-Design/Lab_1/Activity_3/reg_behav.sv(33): [TFMPC] - Missing connection for port 'data_out'.
+add wave -position end  sim:/reg_behav_tb/dut/data
+# End time: 11:17:15 on Jan 28,2020, Elapsed time: 1:01:04
+# Errors: 1, Warnings: 8
