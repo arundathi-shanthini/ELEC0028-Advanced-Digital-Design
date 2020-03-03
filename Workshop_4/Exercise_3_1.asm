@@ -1,4 +1,4 @@
-# Exercise 3:  Generate Fibonacci Series
+# Exercise 3:  Generate Fibonacci Series - upto 20 terms
 # Given x = $s1 and y = $s2
 
 # Initialise terms
